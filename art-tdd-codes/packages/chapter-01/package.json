@@ -1,0 +1,16 @@
+{
+  "name": "chapter-01",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun listing-1.4-naive-test.ts",
+    "test:check": "bun listing-1.5-check-assert.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "art-tdd-codes",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules packages/chapter-01/node_modules packages/chapter-02/node_modules bun.lockb packages/chapter-01/bun.lockb packages/chapter-02/bun.lockb"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
